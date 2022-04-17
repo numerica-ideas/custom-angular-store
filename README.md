@@ -1,6 +1,10 @@
 # CustomAngularStore [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnumerica-ideas%2Fcustom-angular-store&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://blog.numericaideas.com)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8 and contains a **custom Angular store** built using **RxJS** subjects.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8 and contains a **custom Angular store** built using **RxJS** *Subjects*.
+
+## Architecture Diagram
+
+![Diagram](architecture.drawio.svg)
 
 ## Development server
 
