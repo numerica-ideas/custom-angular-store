@@ -1,5 +1,5 @@
 /**
- * The specific book state model.
+ * The local/specific book state model.
  */
 export interface BookState {
     title?: string;

@@ -7,7 +7,7 @@ import { DEFAULT_BOOK } from '../../utils/constant';
 import { CustomState } from '../states/custom.state';
 
 /**
- * The StateService is a facade that holds and serves everything state related.
+ * The StateService (global) is a facade that holds and serves everything state related.
  * As specific states, it also contains exported subject(s) to be consumed elsewhere.
  */
 @Injectable({ providedIn: 'root' })

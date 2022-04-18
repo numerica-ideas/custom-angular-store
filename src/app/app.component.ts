@@ -12,7 +12,9 @@ import { StateService } from './custom-store/services/state.service';
 export class AppComponent {
 	title = 'custom-angular-store';
 	currentYear: number = 2017;
-	currentState$: BehaviorSubject<CustomState>;		// Global state observable containing specific states
+	
+	// Global state observable containing global store and specific states
+	currentState$: BehaviorSubject<CustomState>;
 
 	constructor(private stateService: StateService) {
 		this.currentState$ = this.stateService.get();
@@ -24,6 +26,7 @@ export class AppComponent {
 	updateCustomState(): void {
 		const title = generateName();
 		const year = ++this.currentYear;
+		// For specific fields update we can use appropriate functions
 		// this.stateService.setBookTitle(title);
 		// this.stateService.setBookYear(year);
 		this.stateService.setBookDetails({ title, year });

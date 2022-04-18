@@ -6,7 +6,7 @@ import { BookState } from '../states/book.state';
 import { DEFAULT_BOOK } from 'src/app/utils/constant';
 
 /**
- * Called to update the book state details (title, year, author).
+ * Called to update the local book state details (title, year, author).
  * This specific state holds a reference of the global one to sync its content. 
  */
 @Injectable({ providedIn: 'root' })
